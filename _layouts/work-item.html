@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<nav class="dt w-100">
+  <div class="w100 mw8 center pa3 ph5-ns">
+    <ul>
+      <li>
+        <a href="#" class="link dim white f6 f5-ns nowrap-ns">Garybuilds.email</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}" class="link dim white f6 f5-ns">&larr; Back</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<section class="work-container bg-washed-blue">
+  <div class="dt mw7 center pv4 pv5-m pv6-ns">
+    <div class="dtc-ns db v-top tc pt2 pt0-ns">
+      <img src="{{ site.url }}/{{ page.image }}" alt="" class="ba b--gray mw5 db center" />
+    </div>
+    <div class="dtc-ns db v-top pr0-ns pl4-ns ph4">
+      <h1 class="mt0-ns">{{ page.work-title }}</h1>
+      <h3>{{ page.subhead }}</h3>
+      <p class="lh-copy black-80">
+        {{ content }}
+      </p>
+      <a class="f6 link br2 ph3 pv2 mb2 dib white bg-blue bg-animate hover-bg-purple" href="{{ site.url }}/{{ page.live }}" target="_blank">View live email</a>
+    </div>
+  </div>
+</section>
+
+{% include footer.html %}

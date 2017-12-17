@@ -1,0 +1,75 @@
+---
+layout: default
+title: Gary Builds Emails
+---
+
+<header>
+  <div class="cover bg-left bg-center-l" style="background-image: url(https://gj-wes.github.io/codepen/new-portfolio/header-bg.jpg)">
+    <div class="bg-black-80 pv4 pv5-l">
+      <div class="ph0-ns ph3 w100 mw8 center">
+        <h1 class="f1 white-90 b">Welcome.</h1>
+        <h2 class="f2-ns white-80 mt3 mb1">I'm Gary</h2>
+        <h2 class="f2-ns white-80 mt0 mb0">and I build emails</h2>
+        <h6 class="white-80 mt0">(and occasionally some other things too)</h6>
+      </div>
+    </div>
+  </div>
+</header>
+
+<nav class="dt w-100" id="sticky-nav">
+  <div class="w100 mw8 center pa3 ph5-ns">
+    <ul>
+      <li class="nav__name">
+        <a href="#" class="link dim white f6 f5-ns nowrap-ns">Garybuilds.email</a>
+      </li>
+      <li>
+        <a href="#about" class="link dim white f6 f5-ns">About</a>
+      </li>
+      <li>
+        <a href="#work" class="link dim white f6 f5-ns">Work</a>
+      </li>
+      <li>
+        <a href="#contact" class="link dim white f6 f5-ns">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<section id="about" class="bg-light-blue bb b--black-30">
+  <div class="w100 mw8 center pv5">
+    <p class="f4-ns f5 lh-copy mv0 ph0-ns ph3">
+      London based email developer. Have produced high quality work for clients such as IKEA, O2, Royal Mail, Comparethemarket and more. Well versed in email development, responsive design, modular templates and building of interactive elements. Check out some of my work below.
+    </p>
+  </div>
+  </section>
+    
+<section id="work" class="bg-lightest-blue bb b--black-30">
+  <div class="w100 mw8 center pv5">
+    <h2 class="mt0 mb4 tc">Work</h2>
+    <div class="work-grid pa0-ns ph3">
+      {% for item in site.work-items %}
+      <a href="{{ item.url }}" class="link near-white">
+        <article style="background: url({{ site.url }}/{{ item.image }}) no-repeat center top;" class="cover grow">
+          <div class="pa2">
+            <h4 class="tc mb1 mt0">{{ item.work-title }}</h4>
+            <p class="tc mv0 lh-copy">{{ item.subhead }}</p>
+          </div>
+        </article>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- <section id="blog" class="bg-light-blue bb b--black-30">
+  <div class="w100 mw8 center pv5">
+    <h2 class="mt0 mb4 tc">Blog</h2>
+    <p class="mv0">
+      Gonna put ma blog here! Only 4-6 posts per time
+    </p>
+  </div>
+</section> -->
+
+{% include contact.html %}
+
+{% include footer.html %}

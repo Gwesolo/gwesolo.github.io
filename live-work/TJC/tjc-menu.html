@@ -1,0 +1,524 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Single Template 1</title>
+<style type="text/css">
+/* RESET STYLES */
+	#outlook a{padding:0;}
+	body { width:100% !important; height:100% !important; margin:0; padding:0; line-height:100% !important;}
+	table, td { border-collapse:collapse !important; mso-table-lspace:0pt !important; mso-table-rspace:0pt !important; }
+	img { border:0; display:block; outline:none; text-decoration:none; -ms-interpolation-mode:bicubic; }
+	body, table, td, font { -ms-text-size-adjust:100%; -webkit-text-size-adjust:100%; }	
+	.ExternalClass, .ExternalClass span, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+	div { display:block !important; }
+	button { display:block !important; }
+	
+/* iOS ADDRESS / TEL NUMBERS */
+	a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
+
+	input {dislay: none;}
+	
+	
+/* HIDE ON DESKTOP */
+		.desktop-hide {	display:none !important; margin:0; padding:0;}
+
+/* MOBILE STYLES */
+	
+	 @media only screen and (max-width: 425px) {
+		.pre-header-hide { display:none !important; }
+	}
+	
+	
+	@media only screen and (max-width: 414px) {
+	
+	/* STRUCTURE OVERRIDES */
+		.dis-block { display:block !important; }
+		.hide { display:none !important; }
+		
+	/* BACKGROUND OVERRIDES */
+		.bg-color { background-color:#ffffff !important; }
+		.bg-white-mob { background-color:#ffffff !important; }
+		
+	/* TEXT OVERRIDES */
+		.text-aleft { text-align:left !important; }
+		.text-aright { text-align:right !important; }
+		.text-acenter { text-align:center !important; }
+		
+	/* TABLE SIZE OVERRIDES */
+		.width100 { width:100% !important; }
+		.width90 { width:90% !important; }
+		.width80 { width:80% !important; }
+		.width75 { width:75% !important; }
+		.width70 { width:70% !important; }
+		.width60 { width:60% !important; }
+		.width50 { width:50% !important; }
+		.width45 { width:45% !important; }
+		.width40 { width:40% !important; }
+		.width33 { width:33% !important; }
+		.width30 { width:30% !important; }
+		.width25 { width:25% !important; }
+		.width20 { width:20% !important; }
+		.width10 { width:10% !important; }
+		
+		.height-auto { height:auto !important; }
+		.h24{height:24px !important;}
+		
+	/* PADDING OVERRIDES */
+		.p0 { padding-left:0 !important; padding-right:0 !important; padding-top:0 !important; padding-bottom:0 !important;}
+		.p10 { padding-left:10px !important; padding-right:10px !important; padding-top:10px !important; padding-bottom:10px !important;}
+		.p20 { padding-left:20px !important; padding-right:20px !important; padding-top:20px !important; padding-bottom:20px !important;}
+		.p30 { padding-left:30px !important; padding-right:30px !important; padding-top:30px !important; padding-bottom:30px !important;}	
+		.pt0 { padding-top:0px !important;}	
+		.pt10 { padding-top:10px !important;}
+		.pt20 { padding-top:20px !important;}
+		.pt25 { padding-top:25px !important;}
+		.pt30 { padding-top:30px !important;}
+		.pr0 { padding-right:0px !important;}
+		.pr10 { padding-right:10px !important;}
+		.pr20 { padding-right:20px !important;}
+		.pr30 { padding-right:30px !important;}
+		.pb0 { padding-bottom:0px !important;}
+		.pb5 { padding-bottom:5px !important;}
+		.pb10 { padding-bottom:10px !important;}
+		.pb20 { padding-bottom:20px !important;}
+		.pb30 { padding-bottom:30px !important;}
+		.pb40 { padding-bottom:40px !important;}
+		.pl0 { padding-left:0px !important;}
+		.pl10 { padding-left:10px !important;}
+		.pl20 { padding-left:20px !important;}
+		.pl30 { padding-left:30px !important;}
+		.ptb0 { padding-top:0px !important; padding-bottom:0px !important;}
+		.ptb10 { padding-top:10px !important; padding-bottom:10px !important;}
+		.ptb20 { padding-top:20px !important; padding-bottom:20px !important;}
+		.ptb30 { padding-top:30px !important; padding-bottom:30px !important;}
+		.plr0 { padding-left:0px !important; padding-right:0px !important;}
+		.plr10 { padding-left:10px !important; padding-right:10px !important;}
+		.plr15 { padding-left:15px !important; padding-right:15px !important;}
+		.plr20 { padding-left:20px !important; padding-right:20px !important;}
+		.plr25 { padding-left:25px !important; padding-right:25px !important;}
+		.plr30 { padding-left:30px !important; padding-right:30px !important;}	
+	
+		/* BACKGROUND IMAGE SWAP */
+		
+		/* EDIT TO UPDATE BACKGROUND IMAGES:
+		
+		Find & Replace the first part of the image path ONLY upto and inc.'bg'
+		
+		eg. 
+		Find: images/hero-bg
+		Replace with: http://www.WhereTheImageIsHosted.com/campaign/images/hero-bg
+		
+		DO NOT CHANGE THE REMAINDER OF THE FILE NAME 
+		eg. '-mob.jpg'
+		
+		*/
+		.bgswap {background-image:url('images/hero-bg-mob.jpg') !important; background-position:top !important;background-size:100% !important;}
+		
+		.font12 {
+		 font-size:12px !important;
+		}
+	}
+	
+	
+</style>
+
+<!-- DROPDOWN MENU CSS & FUNCTIONALITY -->
+<style type="text/css">
+@media only screen and (max-width:736px), (orientation: landscape) {
+	.m1{width:181px!important;}
+	.m2{width:165px!important;}
+	.m3{width:124px!important;}
+}
+
+@media only screen and (max-width:414px) {
+	.height-auto{height:auto!important}
+	.width100{width:100%!important;min-width:0!important}
+	.logo-padding{padding:17px 0!important}
+	.menu{width:33%!important;margin:0!important}
+	.fb-nav-pad{padding-left:10px!important;padding-right:10px!important}
+	.fb-nav-pad2{padding-top:10px!important;padding-bottom:10px!important}
+	.fb-p3{padding-right:5px!important}.fb-p4{padding-left:0!important;padding-right:0!important}
+	.fb-nav-pad5{padding: 5px 0px !important}
+	.fb-brd{border-right:1px solid #a58e69!important}
+	.r4r-pad {padding-bottom:10px !important}
+	
+	@supports (float:right) and (float:left){
+		.yahoo{} /*empty class prevents nav issues on Yahoo */
+
+		@media only screen and (max-width:414px), (orientation: portrait) {
+			.fb-nav-pad,.fb-p4{padding-left:0!important;padding-right:0!important}
+			.fb-nav-pad,.fb-p3,.fb-p4{padding-right:0!important}
+			.menu-btn,.menu-logo{box-sizing:border-box}
+			.fb-nav-pad2{padding-top:0!important;padding-bottom:0!important}
+			.fb-nav-pad5{padding: 0px 0px !important}
+			.fb-brd{border-right:none!important}
+			.r4r-pad {padding-bottom:0px !important}
+			
+			.logo{float:right!important;width:170px;height:52px}
+			.menu-logo{width:70%!important;max-width:480px!important;float:left!important}
+			.border-hide{border:none!important}
+			.menu-btn{float:right!important;width:66px!important;height:66px!important;padding:19px 18px 20px}
+			#menu-wrapper,.menu td{padding:0!important}
+			.div-hide{display:none!important}
+			#mobile-label{cursor:pointer;display:inline-block!important;-webkit-tap-highlight-color:transparent;width:30px;height:25px;position:relative}
+			#mobile-label span{background-color:#a58e69;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;display:block;width:30px;height:5px;position:absolute;left:0;-webkit-transform:rotate(0);-moz-transform:rotate(0);transform:rotate(0);-webkit-transition:.25s ease-in-out;-moz-transition:.25s ease-in-out;transition:.25s ease-in-out}
+			.menu,.menu-item{width:100%!important;box-sizing:content-box}
+			.m1{width:100%!important;}
+			.m2{width:100%!important;}
+			.m3{width:100%!important;}
+			.hmb1,.hmb2{-webkit-transform-origin:left center;-moz-transform-origin:left center}
+			#menu-wrapper{background-color:#fff;max-height:0;overflow:hidden;-moz-transition:max-height .25s linear;-webkit-transition:max-height .25s linear;transition:max-height .25s linear;box-sizing:content-box}
+			#mobile-checkbox:checked+table #menu-wrapper{max-height:500px;z-index:100000}
+			.menu{visibility:visible!important;max-height:none!important;overflow:visible!important;height:auto!important;display:table!important}
+			.menu-item{display:block;font-size:14px;height:auto;padding:15px 0px 15px 20px!important;text-align:left}
+			.menu-item:focus,.menu-item:hover{color:#222!important;cursor:pointer}
+			.hmb1{top:0;transform-origin:left center}
+			.hmb2{top:10px;transform-origin:left center}
+			.hmb3{top:20px;-webkit-transform-origin:left center;-moz-transform-origin:left center;transform-origin:left center}
+			#mobile-checkbox:checked+table .hmb1{-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);transform:rotate(45deg);top:-3px}
+			#mobile-checkbox:checked+table .hmb2{width:0;opacity:0}
+			#mobile-checkbox:checked+table .hmb3{-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);transform:rotate(-45deg);top:19px}
+			}
+		}
+
+}
+
+
+
+
+</style>
+
+<!-- High DPI screen fix -->
+<!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG></o:AllowPNG>
+  <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+</head>
+<body style="background-color:#eeeeee; table-layout:fixed;" bgcolor="#eeeeee" align="center" class="bg-color">
+<table border="0" cellspacing="0" cellpadding="0" align="center" width="100%" style="background-color:#eeeeee;table-layout:fixed;width:100%;">
+	<tr>
+    	<td align="center">
+        	  <table border="0" cellspacing="0" cellpadding="0" style="width:600px; text-align:left; max-width:600px;" class="width100">
+                <tr>
+                    <td>
+                        <!-- PRE-HEADER MODULE -->
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="background-color:#eeeeee;" class="pre-header-hide">
+                        	<tr>
+                            <td style="padding:5px 0px 5px 0px; " class="plr10">
+                            <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                              <tr>
+                                <td style="text-align:left; line-height:1px;">
+                                <!-- PRE-HEADER TEXT -->
+                                    <div style="display:none;font-size:1px;color:#e5e5e5;line-height:1px;font-family:Trebuchet MS, Helvetica, Arial;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;"> XXX </div>
+                                <!-- END OF PRE-HEADER TEXT -->
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center"><table border="0" cellspacing="0" cellpadding="0" class="width100">
+                                    <tr>
+                                    <td align="right" style="font-family:Trebuchet MS, Helvetica, Arial;font-size:9px; color:#666666; line-height:16px;" class="width100 dis-block"><a href="#" name="ctv" target="_blank" style="text-decoration:none; color:#666666;"><span style="text-decoration:underline;">View in browser</span></a></td>
+                                  </tr>
+                                  </table></td>
+                              </tr>
+                              </table></td>
+                          </tr>
+                      	</table>
+                        
+                        <!-- HEADER & NAVIGATION -->
+                        <table cellpadding="0" cellspacing="0" border="0" align="center" width="100%" style="background-color:#ffffff;">
+                            <tr>
+                            <td>
+                            
+                            <!--[if !mso]><!-- -->
+                            <input id="mobile-checkbox" style="display:none;max-height:0;visibility:hidden;" type="checkbox">
+                            <!--<![endif]-->
+                            
+                            <table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+                                <tr>
+                                <td align="left">
+                                <div class="menu-btn">
+                                    <label for="mobile-checkbox" id="mobile-label"  style="display: none;">
+                                    <span class="hmb1"></span>
+                                    <span class="hmb2"></span>
+                                    <span class="hmb3"></span>
+                                    </label>
+                                </div>
+                                <!-- LOGO -->
+                                <table cellpadding="0" cellspacing="0" border="0" class="menu-logo" width="100%" align="center">
+                                    <tr>
+                                        <td class="logo-padding" align="center" style="padding:20px;"><a href="#" target="_blank" > <img class="logo" alt="" src="images/jockey-logo.png" width="170" border="0" style="display:block" /> </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                		<!-- MENU -->
+                                  		<table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+                       			 			<tr>
+                                              <td align="left" valign="middle" style="">
+                                              <table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+                                                  <tr>
+                    
+                                                  <td align="center" valign="middle" class="fb-nav-pad">
+                                                      <div id="menu-wrapper"> 
+                                                      <table cellpadding="0" cellspacing="0" border="0" class="width100">
+                                                        <tr>
+                                                          <td style="border-top:1px solid #a58e69; padding:10px 0px;" class="p0 border-hide fb-nav-pad2">
+                                                          <!--[if mso]><table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                          <tr>
+                                                          <td align="center">
+                                                          <table cellpadding="0" cellspacing="0" border="0" align="center">
+                                                          <tr>
+                                                          <td align="center"><![endif]-->
+                                                          
+                                                          <table cellpadding="0" cellspacing="0" border="0" align="left" class="menu m1">
+                                                          <tr>
+                                                            <td style="padding:5px 0px;" class="fb-nav-pad5 p0">
+                                                                <table cellpadding="0" cellspacing="0" border="0" class="width100">
+                                                                    <tr style="line-height:20px;mso-line-height-rule:exactly;">
+                                                                        <td align="center" valign="middle" style="font-family:Helvetica,Arial,sans-serif;font-size:14px;line-height:20px;mso-line-height-rule:exactly;padding-right:10px;" class="fb-p3 fb-brd"><a href="http://www.thejockeyclub.co.uk/" class="menu-item" target="_blank" style="color:#4d4d4f;text-decoration:none;"><span style="color:#4d4d4f !important;">EXPLORE EXPERIENCES</span></a></td>
+                                                                        <td width="1" style="width:1px; background-color:#a58e69" class="hide"><img src="images/1pxspacer.png" alt="" width="1" style="display:block;"></td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                              
+                                                            </tr>
+                                                        </table>
+                                                       
+                                                          <!--[if mso]></td><td align="center"><![endif]-->
+                                                          
+                                                          <table cellpadding="0" cellspacing="0" border="0" align="left" class="menu m2">
+                                                          <tr style="line-height:20px;mso-line-height-rule:exactly;">
+                                                              <td align="center" valign="middle" style="font-family:Helvetica,Arial,sans-serif;font-size:14px;line-height:20px;mso-line-height-rule:exactly;padding:5px 10px;" class="fb-p4"><a href="http://www.thejockeyclub.co.uk/" class="menu-item" target="_blank" style="color:#4d4d4f;text-decoration:none;"><span style="color:#4d4d4f !important;">REQUEST CALLBACK</span></a></td>
+                                                            </tr>
+                                                        </table>
+                                                        
+                                                          <!--[if mso]></td><td align="center"><![endif]-->
+                                                          
+                                                          <table cellpadding="0" cellspacing="0" border="0" align="left" style="background-color:#a58e69;" class="menu m3">
+                                                          <tr style="line-height:20px;mso-line-height-rule:exactly;">
+                                                              <td align="center" valign="middle" style="font-family:Helvetica,Arial,sans-serif;font-size:14px;line-height:20px;mso-line-height-rule:exactly;padding:5px 10px;"><a href="http://www.thejockeyclub.co.uk/" class="menu-item" target="_blank" style="color:#ffffff;text-decoration:none;"><span style="color:#ffffff !important;">BOOK TICKETS</span></a></td>
+                                                            </tr>
+                                                        </table>
+                                                        
+                                                          <!--[if mso]></td></tr></table></td></tr></table><![endif]--> 
+                                                          </td>
+                                                        </tr>
+                                                      </table>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                </table></td>
+                                            </tr>
+                        				</table>
+                        			</td>
+                        		</tr>
+                            </table>
+                            
+                            </td>
+                        </tr>
+                        </table>
+                                                          
+                        <!-- HERO IMAGE MODULE -->
+                        <table border="0" cellspacing="0" cellpadding="0" style="background-color:#a58e69;">
+                            <tr>
+                              <td background="images/hero-bg.jpg" bgcolor="a58e69" width="600" class="bgswap" valign="top">
+                              <!--[if gte mso 9]>
+                              <table border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td width="600" height="300" style="width:600px; height: 300px;">                                            	<v:image xmlns:v="urn:schemas-microsoft-com:vml" id="theImage" style="behavior: url(#default#VML); display: block; position: absolute; width: 600px; height: 300px; top: 0; left: 0; border: 0; z-index: 1;" src="images/hero-bg.jpg" />                     
+                                        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="display: block; position: absolute; width: 600px; height: 300px; top: 0; left: 0; border: 0; z-index: 2;">
+                                        <v:fill opacity="0%" style="z-index: 1;"/>
+                                        <v:textbox inset="0,0,0,0">
+                                <![endif]-->
+                                  <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                    <tr>
+                                      <td id="heroimage"><a href="http://www.thejockeyclub.co.uk/" target="_blank"><img src="images/hero-spacer.png" alt="" width="600" height="230" style="display:block" border="0" class="width100 height-auto" /></a></td>
+                                    </tr>
+                                    <tr>
+                                    	<td style="padding:0px 20px 10px 0px;" class="pl20">
+                                        	<table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        		<tr>
+                                                	<td width="20" style="width:20px;" class="hide"></td>
+                                        			<td><img src="images/RaceOn-left.png" alt="" width="290" height="60" class="width100 height-auto"></td>
+                                        			<td><img src="images/RaceOn-right.png" alt="" width="270" height="60" class="width100 height-auto"></td>
+                                        		</tr>
+                                        	</table>
+                                        </td>
+                                    </tr>
+                                  </table>
+                                <!--[if gte mso 9]>
+                                        </v:textbox>
+                                        </v:fill>
+                                        </v:rect>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <![endif]-->
+                                </td> 
+                            </tr>
+                          </table>
+                                 
+                        <!-- HEADER, BODY COPY and GOLD CTA MODULE -->
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                        	<tr>
+                        		<td>
+                                    <!-- HEADLINE -->                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="background-color:#ffffff;">
+                                     <tr>
+                                      <td align="center" style="padding:0 80px 0 80px;" class="plr20"><table border="0" cellspacing="0" cellpadding="0">
+                                          <tr>
+                                            <td style="padding:36px 0px 16px 0px; font-family:Trebuchet MS, Helvetica, Arial; font-size:24px; line-height:30px; font-weight:bold; color:#4d4d4f; text-align:center; text-transform:uppercase;" class="pt30">Lorem Ipsum Dolor<br class="hide" /> amet consectetur</td>
+                                          </tr>
+                                        </table></td>
+                                    </tr>
+                                   </table>
+                                   
+                                   <!-- DIVIDER -->
+                                   <table cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color:#ffffff;">
+                                   	<tr style="line-height:1px; mso-line-height-rule:exactly;">
+                                        <td align="center" style="line-height:1px; mso-line-height-rule:exactly; font-size:4px;">
+                                            <table border="0" cellspacing="0" cellpadding="0" style="background-color:#4d4d4f;">
+                                                <tr style="line-height:1px; mso-line-height-rule:exactly;">
+                                                    <td style="height:1px; width:132px;" height="1" width="132"><img src="images/1pxspacer.png" alt=""  height="1" width="132" style="display:block;"></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                   </table>
+                                             
+                                    <!-- BODY COPY -->      
+                                    <table border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff;" width="100%">
+                                       <tr>
+                                          <td style="padding:26px 80px 27px 80px;font-family:Trebuchet MS, Helvetica, Arial;font-size:14px; line-height:18px; color:#4d4d4f; text-align:center;" class="plr30 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, accusamus, ducimus quibusdam iusto excepturi culpa nihil rerum. Dolorum, dicta beatae ratione rem quod! Sed, facere ut dolore iusto optio eius!
+                        
+                                            </td>
+                                        </tr>
+                                   </table>
+                                                   
+                                    <!-- CTA -->
+                                    <table border="0" cellspacing="0" cellpadding="0" style="background-color:#ffffff;" width="100%">
+                                        <tr>
+                                            <td align="center" style="padding:0px 20px 35px 20px;"><table border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                <td align="center" style="background-color:#a58e69;"><table border="0" cellspacing="0" cellpadding="0" align="center" valign="top" >
+                                                    <tr>
+                                                    <td align="center" valign="middle" style="font-size:14px; line-height:16px; font-family:Trebuchet MS, Helvetica, Arial; color:#ffffff; padding:17px 20px; text-transform:uppercase; font-weight:bold;"><a href="http://www.thejockeyclub.co.uk/" target="_blank" style="color:#ffffff; text-decoration:none;">Lorem amet sit </a></td>
+                                                  </tr>
+                                                  </table></td>
+                                              </tr>
+                                              </table></td>
+                                          </tr>
+                                      </table>
+                              </td>
+                        	</tr>
+                        </table>
+                                                                     
+                        <!-- FOOTER --> 
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                        	<tr>
+                        		<td style="background-color:#eeeeee; height:20px;"></td>
+                        	</tr>
+                            <tr>
+                                <td style="background-color:#ffffff; padding:30px;" class="p20">
+            
+                                    <!-- SOCIAL MEDIA -->
+									<table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                          <tr>
+                                            <td style="padding-bottom:20px;" align="center">
+                                              <table border="0" cellspacing="0" cellpadding="0" align="center" class="width100">
+                                                <tr>
+                                                  <td><table border="0" cellspacing="0" cellpadding="0" align="center">
+                                                      <tr>
+                                                        
+                                                        <td><a href="#" target="_blank"><img src="images/twitter-logo.png" width="35" height="35" alt="Twitter" border="0" align="center"  style="display: block;"></a></td>
+                                                        <td width="50" style="width:50px;"></td>
+                                                        
+                                                        <td><a href="#" target="_blank"><img src="images/facebook-logo.png" width="35" height="35" alt="Facebook" border="0" align="center"  style="display: block;"></a></td>
+                                                        <td width="50" style="width:50px;"></td>
+                                                        <td><a href="#" target="_blank"><img src="images/instagram-logo.png" width="35" height="35" alt="Instagram" border="0" align="center"  style="display: block;"></a></td>
+                                                      </tr>
+                                                    </table></td>
+                                                </tr>
+                                              </table></td>
+                                          </tr>
+                                        </table>
+                                        
+                                    <!-- CONTACT INFO -->
+                                    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                    	<tr>
+                                    		<td align="center">
+                                            	<table cellspacing="0" cellpadding="0" border="0" class="width100">
+                                            		<tr>
+                                            			<td style="font-family:Trebuchet MS, Helvetica, Arial;font-size:14px; line-height:18px; color:#4d4d4f; text-align:center; font-weight:bold;" class="width100 dis-block pb5"><a style="color:#4d4d4f;">0344 579 3070</a></td>
+                                            			<td style="font-family:Trebuchet MS, Helvetica, Arial;font-size:14px; line-height:18px; color:#4d4d4f; text-align:center; font-weight:bold; padding:0px 12px;" class="hide">|</td>
+                                            			<td style="font-family:Trebuchet MS, Helvetica, Arial;font-size:14px; line-height:18px; color:#4d4d4f; text-align:center; font-weight:bold;" class="width100 dis-block font12"><a href="mailto:newmarket.marketing@thejockeyclub.co.uk" target="_blank" style="color:#4d4d4f; text-decoration:underline;">newmarket.marketing@thejockeyclub.co.uk</a></td>
+                                            		</tr>
+                                            	</table>
+                                            </td>
+                                    	</tr>
+                                    </table>
+
+            
+                                </td>
+                            </tr>
+                       </table>
+                                   
+                        <!-- TERMS -->
+                        <table border="0" cellspacing="0" cellpadding="0" width="100%" style="background-color:#eeeeee;">
+                        	<tr>
+                        		<td>
+                                	<table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <tr>
+                                            <td>
+                                                <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                                    <tr class="terms">
+                                          <td align="left" valign="top" class="plr25" style="padding:27px 40px 15px 40px;font-size:10px; mso-line-height-rule:exactly; line-height:14px; color:#4d4d4f; font-family:Trebuchet MS, Helvetica, Arial; text-align:center;">Newmarket is a Jockey Club Racecourse 2016. Company registered in England No. <a style="color:#4d4d4f; text-decoration:none;"><span style="color:#4d4d4f !important;">2909409</span></a> Newmarket Racecourses, Westfield House, The Links, <a style="color:#4d4d4f; text-decoration:none;"><span style="color:#4d4d4f !important;">Newmarket, Suffolk, CB8 0TG</span></a>
+                                          </td>
+                                        </tr>
+                                                </table>
+                                            </td>
+                                         </tr>
+                                        <tr>
+                                          <td style="padding-bottom:40px;">
+                                          <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                              <tr>
+                                                <td align="left" valign="top"  style="padding:0 0 0 0; mso-line-height-rule:exactly; line-height:15px;font-size:9px; color:#4d4d4f; font-weight:bold; font-family:Trebuchet MS, Helvetica, Arial;text-align:center; " class="tnc-font-size"><a href="#" target="_blank" style="color:#4d4d4f; text-decoration:underline;">Unsubscribe</a>
+                                                </td>
+                                              </tr>
+                                            </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                        	</tr>
+                        </table>
+                  </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <!-- FORCE DESKTOP GMAIL APP -->
+     <tr style="line-height:1px;">
+         <td style="line-height:1px;font-size:1px;" class="hide"><table cellspacing="0" cellpadding="0" border="0" width="100%">
+             <tr>
+             <td><img src="images/spacer-gmail-1.png" width="300" height="1" alt="" title="" border="0" style="display:block;"></td>
+             <td><img src="images/spacer-gmail-1.png" width="300" height="1" alt="" title="" border="0" style="display:block;"></td>
+           </tr>
+           </table></td>
+       </tr>
+</table>
+<!-- INSERT LITMUS TRACKING BELOW -->
+
+<!-- END OF LITMUS TRACKING -->
+</body>
+</html>
